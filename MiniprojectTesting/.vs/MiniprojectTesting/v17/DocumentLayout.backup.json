@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\pages\\todolist\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\pages\\todolist\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\services\\tododetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\services\\tododetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\models\\tododetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\models\\tododetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\pages\\todolist\\todomenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\pages\\todolist\\todomenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\components\\pages\\todolist\\tododetailmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\components\\pages\\todolist\\tododetailmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|d:\\odp\\ojt\\practice\\web\\miniprojecttesting\\miniprojecttesting\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8C6B1BFA-C28B-4A42-B4FE-BE7F972001D8}|MiniprojectTesting\\MiniprojectTesting.csproj|solutionrelative:miniprojecttesting\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\LoginPage.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Pages\\LoginPage.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\LoginPage.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Pages\\LoginPage.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T15:55:00.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Services\\TodoService.cs",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Services\\TodoService.cs",
+              "RelativeToolTip": "MiniprojectTesting\\Services\\TodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:29:33.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Services\\AuthenticationService.cs",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "MiniprojectTesting\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T14:42:25.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T17:28:42.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T08:41:47.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Todo.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\TodoLIst\\Todo.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Pages\\TodoLIst\\Todo.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\TodoLIst\\Todo.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Pages\\TodoLIst\\Todo.razor",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwLIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T17:12:10.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T15:45:40.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoDetailService.cs",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Services\\TodoDetailService.cs",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Services\\TodoDetailService.cs",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Services\\TodoDetailService.cs",
+              "RelativeToolTip": "MiniprojectTesting\\Services\\TodoDetailService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:23:21.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoModel.cs",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Models\\TodoModel.cs",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Models\\TodoModel.cs",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Models\\TodoModel.cs",
+              "RelativeToolTip": "MiniprojectTesting\\Models\\TodoModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:29:22.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TodoDetailModel.cs",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Models\\TodoDetailModel.cs",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Models\\TodoDetailModel.cs",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Models\\TodoDetailModel.cs",
+              "RelativeToolTip": "MiniprojectTesting\\Models\\TodoDetailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:31:08.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoMenu.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoMenu.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoMenu.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoMenu.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T19:27:39.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Routes.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Routes.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T06:32:42.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T17:53:42.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T17:53:49.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Program.cs",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Program.cs",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Program.cs",
+              "RelativeToolTip": "MiniprojectTesting\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T08:44:03.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TodoDetailMenu.razor",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoDetailMenu.razor",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoDetailMenu.razor",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoDetailMenu.razor",
+              "RelativeToolTip": "MiniprojectTesting\\Components\\Pages\\TodoLIst\\TodoDetailMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T19:27:10.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\wwwroot\\app.css",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\wwwroot\\app.css",
+              "RelativeToolTip": "MiniprojectTesting\\wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T05:59:17.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "MiniprojectTesting\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "D:\\ODP\\OJT\\Practice\\Web\\MiniprojectTesting\\MiniprojectTesting\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "MiniprojectTesting\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T05:59:15.902Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+﻿@page "/todo"
+@using MiniprojectTesting.Models
+@using MiniprojectTesting.Services
+@inject TodoService TodoService
+
+<PageTitle>Home</PageTitle>
+
+<div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-lg-9 col-xl-7">
+            <div class="card rounded-3">
+                <div class="card-body p-4">
+                    <h4 class="text-center my-3 pb-3">Todo List</h4>
+                    <!-- Input fields for new Todo -->
+                    <div class="row row-cols-lg-auto g-3 justify-content-center align-items-center mb-4 pb-2">
+                        <div class="col-12">
+                            <div data-mdb-input-init class="form-outline">
+                                <input type="text" id="task" @bind="newTodo.Note" class="form-control" />
+                                <label class="form-label" for="task">Enter a task here</label>
+                            </div>
+                            <div data-mdb-input-init class="form-outline">
+                                <input type="text" id="day" @bind="newTodo.Day" class="form-control" />
+                                <label class="form-label" for="day">Enter day here</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" @onclick="HandleAddTodo">
+                                Add Todo
+                            </button>
+                        </div>
+                    </div>
+
+                    <ul class="list-group mb-4">
+                        @if (todos != null && todos.Count > 0)
+                        {
+                            foreach (var todo in todos)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <strong>@todo.Note</strong><br />
+                                        <small>Date: @todo.TodayDate.ToString("yyyy-MM-dd")</small><br />
+                                        <small>Details Count: @todo.DetailCount</small>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm me-2" @onclick="() => EditTodo(todo)">Edit</button>
+                                        <button class="btn btn-danger btn-sm me-2" @onclick="() => DeleteTodo(todo.TodoId)" disabled="@isDeleting">Delete</button>
+                                        @if (isDeleting && selectedTodo?.TodoId == todo.TodoId)
+                                        {
+                                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        }
+                                        <button class="btn btn-info btn-sm" @onclick="() => ToggleDetails(todo)">
+                                            @(expandedDetails.Contains(todo.TodoId) ? "Hide Details" : "Show Details")
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <!-- Show Details Modal -->
+                                @if (expandedDetails.Contains(todo.TodoId))
+                                {
+                                    <div class="modal show d-block" tabindex="-1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Todo Details for @todo.Note</h5>
+                                                    <button type="button" class="btn-close" @onclick="() => ToggleDetails(todo)"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    @if (todo.TodoDetails != null && todo.TodoDetails.Count > 0)
+                                                    {
+                                                        <ul class="list-group ms-3">
+                                                            @foreach (var detail in todo.TodoDetails)
+                                                            {
+                                                                <li class="list-group-item">
+                                                                    <strong>@detail.Activity</strong> - @detail.DetailNote (@detail.Category)
+                                                                </li>
+                                                            }
+                                                        </ul>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p>No details available</p>
+                                                    }
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" @onclick="() => ToggleDetails(todo)">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            <li class="list-group-item text-center">No tasks available</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<TodoModel> todos = new List<TodoModel>();
+    private TodoModel newTodo = new TodoModel();
+    private TodoModel selectedTodo; // Used for editing
+    private bool isDeleting = false;
+    private HashSet<string> expandedDetails = new HashSet<string>();
+
+    // Load todos when the page is initialized
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTodos();
+    }
+
+    // Fetch todos from the service
+    private async Task LoadTodos()
+    {
+        try
+        {
+            todos = await TodoService.GetTodosAsync(1, 1000);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading todos: {ex.Message}");
+        }
+    }
+
+    // Handle adding a new Todo without using form submission
+    private async Task HandleAddTodo()
+    {
+        try
+        {
+            // Ensure the new todo is not empty before sending
+            if (!string.IsNullOrWhiteSpace(newTodo.Note) && !string.IsNullOrWhiteSpace(newTodo.Day))
+            {
+                await TodoService.AddTodoAsync(newTodo);  // Call the API to add the new Todo
+                newTodo = new TodoModel();  // Reset the newTodo object
+                await LoadTodos();  // Refresh the todo list after adding
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error adding todo: {ex.Message}");
+        }
+    }
+
+    // Method to delete a todo item
+    private async Task DeleteTodo(string todoId)
+    {
+        try
+        {
+            isDeleting = true;
+            await TodoService.DeleteTodoAsync(todoId);
+            await LoadTodos();  // Refresh the list after deletion
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error deleting todo: {ex.Message}");
+        }
+        finally
+        {
+            isDeleting = false;
+        }
+    }
+
+    // Toggle showing details
+    private void ToggleDetails(TodoModel todo)
+    {
+        if (expandedDetails.Contains(todo.TodoId))
+        {
+            expandedDetails.Remove(todo.TodoId);
+        }
+        else
+        {
+            expandedDetails.Add(todo.TodoId);
+        }
+    }
+
+    // Edit existing todo
+    private void EditTodo(TodoModel todo)
+    {
+        selectedTodo = todo;  // Set the selected todo to edit
+                              // Code for showing the modal or inline editing can be added here
+    }
+}
